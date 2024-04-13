@@ -129,7 +129,7 @@ const ResigisterNormalUserSchemaModel = mongoose.model(
   ResigisterNormalUserSchema
 );
 
-app.get("/", async (req, res) => {
+app.get("https://wondrous-truffle-bd90f1.netlify.app", async (req, res) => {
   
   res.json("helloword");
 
